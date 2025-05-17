@@ -132,7 +132,7 @@ const components: ComponentCategory[] = [
     components: [
       {
         title: "Avatar",
-        href: "/docs/data-display/avatar",
+        href: "/docs/data-display/awatar",
       },
       {
         title: "Badge",
