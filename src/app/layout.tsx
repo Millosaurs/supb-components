@@ -3,6 +3,7 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { Toaster } from "sonner";
 
 const geistSans = Outfit({
   variable: "--font-outfit-sans",
@@ -23,6 +24,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable}  antialiased`}>
         <ThemeProvider>{children}</ThemeProvider>
+        <Toaster 
+          toastOptions={{
+            className: "border border-border rounded-lg shadow-sm",
+          }}
+        />
       </body>
     </html>
   );

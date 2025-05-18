@@ -192,7 +192,7 @@ const components: ComponentCategory[] = [
       },
       {
         title: "Dropdown Menu",
-        href: "/docs/navigation/dropdown-menu",
+        href: "/docs/navigation/dropdown",
       },
       {
         title: "Menubar",
